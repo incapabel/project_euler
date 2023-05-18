@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import problems.Problem1;
 import problems.Problem2;
+import problems.Problem3;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -13,5 +14,10 @@ class TestSolutions {
 	@Test
 	void testProblem2() {
 		assertEquals("4613732", new Problem2().solve());
+	}
+
+	@Test
+	void testProblem3() {
+		assertEquals("6857", new Problem3().solve());
 	}
 }
