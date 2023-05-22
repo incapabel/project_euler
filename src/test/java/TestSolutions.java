@@ -63,4 +63,9 @@ class TestSolutions {
 	void testProblem12() {
 		assertEquals("76576500", new Problem12().solve());
 	}
+
+	@Test
+	void testProblem13() {
+		assertEquals("5537376230", new Problem13().solve());
+	}
 }
