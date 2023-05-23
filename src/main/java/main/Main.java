@@ -5,8 +5,8 @@ public class Main {
 		System.out.println("test");
 	}
 
-	private String test() {
+	int test() {
 		String s = null;
-		return s;
+		return s.length();
 	}
 }
