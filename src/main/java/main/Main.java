@@ -1,13 +1,11 @@
 package main;
 
-import problems.Problem14;
+import problems.Problem15;
 import utils.Problem;
 
 public class Main {
-	private final int ZERO_ = 0;
-
 	public static void main(String[] args) {
-		Problem problem = new Problem14();
+		Problem problem = new Problem15();
 		System.out.println(problem.solve());
 	}
 }
