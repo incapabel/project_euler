@@ -17,8 +17,6 @@ How many such routes are there through a 20x20 grid?
 public class Problem15 implements Problem {
 	@Override
 	public String solve() {
-		System.out.println();
-
 		return String.valueOf(recursiveSolution(0, 0, 20, BigInteger.ZERO));
 	}
 
