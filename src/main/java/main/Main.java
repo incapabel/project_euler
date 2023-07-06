@@ -1,11 +1,11 @@
 package main;
 
-import problems.Problem19;
+import problems.Problem20;
 import utils.Problem;
 
 public class Main {
 	public static void main(String[] args) {
-		Problem problem = new Problem19();
+		Problem problem = new Problem20();
 		System.out.println(problem.solve());
 	}
 }

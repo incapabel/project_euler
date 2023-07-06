@@ -98,4 +98,9 @@ class TestSolutions {
 	void testProblem19() {
 		assertEquals("171", new Problem19().solve());
 	}
+
+	@Test
+	void testProblem20() {
+		assertEquals("648", new Problem20().solve());
+	}
 }
