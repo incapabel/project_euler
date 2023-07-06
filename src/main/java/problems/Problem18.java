@@ -59,9 +59,9 @@ public class Problem18 implements Problem {
 		for (int row = rows; row >= 0; row--) {
 			int rowLength = triangle[row].length;
 			for (int posInRow = 0; posInRow < rowLength; posInRow++) {
-				int topLeft  = triangle[row + 1][posInRow];
-				int topRight = triangle[row + 1][posInRow + 1];
-				triangle[row][posInRow] += Math.max(topLeft, topRight);
+				int left  = triangle[row + 1][posInRow];
+				int right = triangle[row + 1][posInRow + 1];
+				triangle[row][posInRow] += Math.max(left, right);
 			}
 		}
 		return Integer.toString(triangle[0][0]);
